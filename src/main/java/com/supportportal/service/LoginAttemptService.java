@@ -47,5 +47,4 @@ public class LoginAttemptService {
         }
         return false;
     }
-
 }

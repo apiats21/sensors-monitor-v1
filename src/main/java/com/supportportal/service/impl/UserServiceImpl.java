@@ -82,7 +82,8 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         validateNewUsernameAndEmail(EMPTY, username, email);
         User user = new User();
         user.setUserId(generateUserId());
-        String password = generatePassword();
+//        String password = generatePassword();
+        String password = "admin";
         user.setFirstName(firstName);
         user.setLastName(lastName);
         user.setUsername(username);
